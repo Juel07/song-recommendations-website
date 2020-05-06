@@ -1,0 +1,180 @@
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* import CSS variables */
+@import url(../variables/_variables.css);
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+/* header nav */
+.header_area .main-menu .navbar .navbar-brand {
+    padding: 0
+}
+
+.header_area .main-menu .navbar {
+    padding: 2vmin 20vmin;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+    /* font-family   : var(--roboto) ; */
+    text-transform: uppercase;
+    padding       : 1.7rem;
+    color         : var(--title-color);
+    font-weight   : 500;
+}
+
+.header_area .main-menu .navbar-nav .active a {
+    background             : var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip        : text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+    background             : var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip        : text;
+}
+
+.dropdown-menu {
+    display   : none;
+    position  : absolute;
+    background: white;
+    min-width : 160px;
+}
+
+/* header nav end*/
+
+/* banner */
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding       : 20vmin 1vmin;
+    padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 img {
+    width: 90%
+}
+
+header .container .col-md-7 h5 {
+    padding       : 1vmin;
+    letter-spacing: 3px;
+}
+
+header .container .col-md-7 h1 {
+    padding    : 0.1em 0 em;
+    font-size  : 6vmin;
+    font-weight: 600;
+}
+
+header .container .col-md-7 p{
+    padding: 1vmin 5vmin;
+    letter-spacing: 1px;
+}
+
+/* banner end */
+
+/* Common Classes */
+
+.title-text {
+    font: normal bold 50px/ 72px var(--roboto);
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+p.para {
+    color   : var(--text-color);
+    /* font : normal 500 16px/ 25px var(--roboto); */
+}
+
+.font-roboto {
+    font-family: var(--roboto);
+}
+
+.btn {
+    padding: 0.8rem 2.2rem;
+    font-weight: 500;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.btn:hover{
+    filter: opacity(0.8);
+    color: whitesmoke;
+}
+
+button:focus, button:active button:hover .btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+/* Common Classes end */
+
+/* songs grid */
+.grid-area {
+    padding: 4rem 0;
+}
+
+.grid-area .button-group button {
+    background       : transparent;
+    border           : none;
+    font-weight      : 500;
+    font-size        : 16px;
+    line-height      : 130px;
+    text-transform   : uppercase;
+}
+
+.grid-area .button-group button+button {
+    padding-left: 3rem;
+}
+
+.grid-area .grid .our-song>.title h4 {
+    font-weight: 700;
+    font-size  : 25px;
+    line-height: 12px;
+}
+
+.grid-area .grid .our-song .img a:hover img {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* Footer Area */
+
+footer.footer-area {
+    padding   : 5rem 0;
+    background: url(../assets/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5 {
+    font: 500 23px/ 30px;
+}
+
+footer.footer-area .social a>i {
+    font-size: 22px;
+    padding  : 2rem;
+    color    : var(--border-color);
+}
+
+footer.footer-area .social a:hover>i {
+    color: var(--primary-color);
+}
+
+/* End Footer */
