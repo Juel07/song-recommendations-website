@@ -19,7 +19,6 @@ section {
 }
 
 .header_area .main-menu .nav-item .nav-link {
-    /* font-family   : var(--roboto) ; */
     text-transform: uppercase;
     padding       : 1.7rem;
     color         : var(--title-color);
@@ -94,7 +93,6 @@ header .container .col-md-7 p{
 
 p.para {
     color   : var(--text-color);
-    /* font : normal 500 16px/ 25px var(--roboto); */
 }
 
 .font-roboto {
@@ -144,7 +142,6 @@ button:focus, button:active button:hover .btn:active,
 
 .grid-area .button-group button:hover {
     color: var(--primary-color);
-    /* border-style: solid; */
     border-bottom: solid;
     border-color: var(--gradient-color);
     border-width: 0.15rem;
