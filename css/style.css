@@ -137,12 +137,27 @@ button:focus, button:active button:hover .btn:active,
     border           : none;
     font-weight      : 500;
     font-size        : 16px;
-    line-height      : 130px;
+    padding: 10px;
+    margin-bottom: 3rem;
     text-transform   : uppercase;
 }
 
+.grid-area .button-group button:hover {
+    color: var(--primary-color);
+    /* border-style: solid; */
+    border-bottom: solid;
+    border-color: var(--gradient-color);
+    border-width: 0.15rem;
+}
+
+.grid-area .button-group button:active {
+    border-bottom: solid;
+    border-color: var(--gradient-color);
+    border-width: 0.15rem;
+}
+
 .grid-area .button-group button+button {
-    padding-left: 3rem;
+    margin-left: 3rem;
 }
 
 .grid-area .grid .our-song>.title h4 {
@@ -150,11 +165,6 @@ button:focus, button:active button:hover .btn:active,
     font-size  : 20px;
     line-height: 12px;
 }
-
-.grid-area .grid .our-song .img a:hover img {
-    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
-}
-
 
 /* Footer Area */
 
