@@ -17,13 +17,6 @@ $(document).ready(function () {
         return false;
     })
 
-    $('.grid-area .button-group #btn1').trigger('click');
-
-    $('.grid-area .grid .test-popup-link').magnificPopup({
-        type: 'image',
-        gallery: { enabled: true }
-    });
-
 // song grid
 
 })
