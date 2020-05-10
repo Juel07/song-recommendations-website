@@ -146,8 +146,8 @@ button:focus, button:active button:hover .btn:active,
 }
 
 .grid-area .grid .our-song>.title h4 {
-    font-weight: 700;
-    font-size  : 25px;
+    font-weight: 600;
+    font-size  : 20px;
     line-height: 12px;
 }
 
