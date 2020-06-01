@@ -3,6 +3,9 @@
 
 /* import CSS variables */
 @import url(../variables/_variables.css);
+html{
+    scroll-behavior: smooth;
+}
 
 header,
 section {
