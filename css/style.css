@@ -151,7 +151,7 @@ button:focus, button:active button:hover .btn:active,
     width: 100%;
     height: 100%;
     background: rgba(118, 85, 225, 0.753);
-    padding-top: 19vmin;
+    padding-top: 10vmin;
   }
   
   .cover .content > h1 {
@@ -160,7 +160,7 @@ button:focus, button:active button:hover .btn:active,
   }
   
   .cover .content > p {
-    font-size: 2vmin;
+    font-size: 3vmin;
     color: #e5e5e5;
     letter-spacing: 1px;
   }
@@ -179,7 +179,7 @@ button:focus, button:active button:hover .btn:active,
   }
   
   .numbers {
-    margin-top: -20vmin;
+    margin-top: -15vmin; 
     margin-bottom: 10vmin;
   }
   
@@ -194,9 +194,8 @@ button:focus, button:active button:hover .btn:active,
   }
   
   .purchase > p {
-    color: var(--light-black);
     font-size: 3vmin;
-    padding-bottom: 10vmin;
+    padding-bottom: 5vmin;
   }
   
   .purchase .cards .card {
@@ -217,7 +216,6 @@ button:focus, button:active button:hover .btn:active,
   
   .card .card-text {
     padding: 2.5rem 3rem;
-    color: var(--light-black);
   }
   
   .card-body .pricing {
@@ -268,6 +266,7 @@ button:focus, button:active button:hover .btn:active,
     font-size  : 20px;
     line-height: 12px;
 }
+
 
 /* Footer Area */
 
