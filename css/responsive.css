@@ -1,0 +1,79 @@
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 340px) {
+
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand {
+        padding: 2%;
+        margin : 0%;
+    }
+
+}
+
+
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 792px) {
+
+    .grid-area .button-group button {
+        padding: 0px;
+    }
+
+    .about-area .about-title p {
+        padding: 0%;
+    }
+
+    .grid-area {
+        padding: 1rem;
+    }
+
+    .grid-area .grid .our-song>.title h4 {
+        font-size  : 18px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width   : initial;
+        height  : initial;
+    }
+
+    .section-2 .cover {
+        background-position: -25vmin -10vmin;
+    }
+
+    .cover .content>p {
+        font-size: 3vmin;
+        margin   : 2vmin;
+    }
+
+    .numbers .rect {
+        width : 10rem;
+        height: 8rem;
+    }
+
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
+
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+}
+
+
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px) {
+    .header_area .main-menu .navbar {
+        padding: 1rem;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+}
