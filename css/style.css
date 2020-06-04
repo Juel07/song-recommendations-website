@@ -53,31 +53,31 @@ section {
 
 /* banner */
 
-header .row .col-md-5 {
+.container .row .col-md-5 {
     padding: 4.2vmin 1vmin;
 }
 
-header .row .col-md-7 {
+.container .row .col-md-7 {
     padding       : 20vmin 1vmin;
     padding-bottom: 35vmin;
 }
 
-header .row .col-md-5 img {
+.container .row .col-md-5 img {
     width: 90%
 }
 
-header .container .col-md-7 h5 {
+.container .col-md-7 h5 {
     padding       : 1vmin;
     letter-spacing: 3px;
 }
 
-header .container .col-md-7 h1 {
+.container .col-md-7 h1 {
     padding    : 0.1em 0 em;
     font-size  : 6vmin;
     font-weight: 600;
 }
 
-header .container .col-md-7 p{
+ .container .col-md-7 p{
     padding: 1vmin 5vmin;
     letter-spacing: 1px;
 }
@@ -102,7 +102,7 @@ p.para {
     font-family: var(--roboto);
 }
 
-.btn {
+.btn a {
     padding: 0.8rem 2.2rem;
     font-weight: 500;
     position: relative;
@@ -115,12 +115,13 @@ p.para {
     box-shadow: var(--box-shadow);
 }
 
-.btn:hover{
+.btn a:hover{
     filter: opacity(0.8);
     color: whitesmoke;
+    text-decoration: none;
 }
 
-button:focus, button:active button:hover .btn:active,
+button:focus, button:active button:hover .btn a:active,
 .btn.active{
     outline: 0px !important;
     box-shadow: none !important;
