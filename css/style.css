@@ -256,7 +256,7 @@ button:active button:hover .btn a:active,
 
 .grid-area .button-group button {
   background: transparent;
-  border: 0.15rem solid transparent;
+  border: 2px solid var(--border-color);
   font-weight: 500;
   font-size: 16px;
   padding: 10px;
@@ -265,12 +265,12 @@ button:active button:hover .btn a:active,
 }
 
 .grid-area .button-group button:hover {
-  border: 0.15rem solid var(--gradient-color);
   color: var(--primary-color);
+  border: 2px solid var(--primary-color);
 }
 
 .grid-area .button-group button:active {
-  border: 0.15rem solid var(--gradient-color);
+  border: 2px solid var(--primary-color);
 }
 
 .grid-area .button-group button + button {
