@@ -3,50 +3,50 @@
 
 /* import CSS variables */
 @import url(/variables/_variables.css);
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 header,
 section {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 /* header nav */
 .header_area .main-menu .navbar .navbar-brand {
-    padding: 0
+  padding: 0;
 }
 
 .header_area .main-menu .navbar {
-    padding: 2vmin 20vmin;
+  padding: 2vmin 20vmin;
 }
 
 .header_area .main-menu .nav-item .nav-link {
-    text-transform: uppercase;
-    padding       : 1.7rem;
-    color         : var(--title-color);
-    font-weight   : 500;
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+  font-weight: 500;
 }
 
 .header_area .main-menu .navbar-nav .active a {
-    background             : var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip        : text;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover {
-    background             : var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip        : text;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .dropdown-menu {
-    display   : none;
-    position  : absolute;
-    background: white;
-    min-width : 160px;
+  display: none;
+  position: absolute;
+  background: white;
+  min-width: 160px;
 }
 
 /* header nav end*/
@@ -54,32 +54,32 @@ section {
 /* banner */
 
 .container .row .col-md-5 {
-    padding: 4.2vmin 1vmin;
+  padding: 4.2vmin 1vmin;
 }
 
 .container .row .col-md-7 {
-    padding       : 20vmin 1vmin;
-    padding-bottom: 35vmin;
+  padding: 20vmin 1vmin;
+  padding-bottom: 35vmin;
 }
 
 .container .row .col-md-5 img {
-    width: 90%
+  width: 90%;
 }
 
 .container .col-md-7 h5 {
-    padding       : 1vmin;
-    letter-spacing: 3px;
+  padding: 1vmin;
+  letter-spacing: 3px;
 }
 
 .container .col-md-7 h1 {
-    padding    : 0.1em 0 em;
-    font-size  : 6vmin;
-    font-weight: 600;
+  padding: 0.1em 0 em;
+  font-size: 6vmin;
+  font-weight: 600;
 }
 
- .container .col-md-7 p{
-    padding: 1vmin 5vmin;
-    letter-spacing: 1px;
+.container .col-md-7 p {
+  padding: 1vmin 5vmin;
+  letter-spacing: 1px;
 }
 
 /* banner end */
@@ -87,44 +87,45 @@ section {
 /* Common Classes */
 
 .title-text {
-    font: normal bold 50px/ 72px var(--roboto);
+  font: normal bold 50px/ 72px var(--roboto);
 }
 
 .text-uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 p.para {
-    color   : var(--text-color);
+  color: var(--text-color);
 }
 
 .font-roboto {
-    font-family: var(--roboto);
+  font-family: var(--roboto);
 }
 
 .btn a {
-    padding: 0.8rem 2.2rem;
-    font-weight: 500;
-    position: relative;
-    border: 3px solid transparent;
-    border-radius: 4px;
-    background: var(--gradient-color);
-    background-clip: padding-box;
-    color: whitesmoke;
-    transition: background .6s ease;
-    box-shadow: var(--box-shadow);
+  padding: 0.8rem 2.2rem;
+  font-weight: 500;
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  background: var(--gradient-color);
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition: background 0.6s ease;
+  box-shadow: var(--box-shadow);
 }
 
-.btn a:hover{
-    filter: opacity(0.8);
-    color: whitesmoke;
-    text-decoration: none;
+.btn a:hover {
+  filter: opacity(0.8);
+  color: whitesmoke;
+  text-decoration: none;
 }
 
-button:focus, button:active button:hover .btn a:active,
-.btn.active{
-    outline: 0px !important;
-    box-shadow: none !important;
+button:focus,
+button:active button:hover .btn a:active,
+.btn.active {
+  outline: 0px !important;
+  box-shadow: none !important;
 }
 
 /* Common Classes end */
@@ -132,162 +133,156 @@ button:focus, button:active button:hover .btn a:active,
 /* Mood card section */
 
 .cover {
-    width: 100%;
-    height: 55vmin;
-    background-position: -24rem -19rem;
-    background-size: 150%;
-    position: relative;
-  }
-  
-  .cover .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 999;
-  }
-  
-  .cover .content {
-    width: 100%;
-    height: 100%;
-    background: rgba(118, 85, 225, 0.753);
-    padding-top: 10vmin;
-  }
-  
-  .cover .content > h1 {
-    font-size: 6vmin;
-    color: whitesmoke;
-  }
-  
-  .cover .content > p {
-    font-size: 3vmin;
-    color: #e5e5e5;
-    letter-spacing: 1px;
-  }
-  
-  .numbers .rect {
-    position: relative;
-    z-index: 1;
-    background: white;
-    width: 17rem;
-    height: 12rem;
-    padding-top: 3.5vmin;
-    margin: 1rem;
-    border-radius: 0.5em;
-    box-shadow: var(--box-shadow);
+  width: 100%;
+  height: 55vmin;
+  background-position: -24rem -19rem;
+  background-size: 150%;
+  position: relative;
+}
 
-  }
-  
-  .numbers {
-    margin-top: -15vmin; 
-    margin-bottom: 10vmin;
-  }
-  
-  .numbers .rect h1 {
-    font-size: 5rem;
-    color: var(--primary-color);
-  }
-  
-  .purchase > h1 {
-    padding-top: 15vmin;
-    padding-bottom: 0.1em;
-  }
-  
-  .purchase > p {
-    font-size: 3vmin;
-    padding-bottom: 5vmin;
-  }
-  
-  .purchase .cards .card {
-    width: 22rem;
-    margin: 3vmin 3vmin;
-  }
-  
-  .cards div {
-    padding: 0;
-    margin: 0;
-  }
-  
-  .cards .title {
-    background: rgba(208, 241, 241, 0.199);
-    padding: 1.4em 2.5em;
-    font-size: 2vmin;
-  }
-  
-  .card .card-text {
-    padding: 2.5rem 3rem;
-  }
-  
-  .card-body .pricing {
-    background: rgba(208, 241, 241, 0.199);
-    border-top-right-radius: 170px;
-    border-top-left-radius: 170px;
-  }
-  
-  .card-body .pricing > h1 {
-    font-size: 10vmin;
-    padding: 1em 0.5em;
-  }
+.cover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.cover .content {
+  width: 100%;
+  height: 100%;
+  background: rgba(118, 85, 225, 0.753);
+  padding-top: 10vmin;
+}
+
+.cover .content > h1 {
+  font-size: 6vmin;
+  color: whitesmoke;
+}
+
+.cover .content > p {
+  font-size: 3vmin;
+  color: #e5e5e5;
+  letter-spacing: 1px;
+}
+
+.numbers .rect {
+  position: relative;
+  z-index: 1;
+  background: white;
+  width: 17rem;
+  height: 12rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 0.5em;
+  box-shadow: var(--box-shadow);
+}
+
+.numbers {
+  margin-top: -15vmin;
+  margin-bottom: 10vmin;
+}
+
+.numbers .rect h1 {
+  font-size: 5rem;
+  color: var(--primary-color);
+}
+
+.purchase > h1 {
+  padding-top: 15vmin;
+  padding-bottom: 0.1em;
+}
+
+.purchase > p {
+  font-size: 3vmin;
+  padding-bottom: 5vmin;
+}
+
+.purchase .cards .card {
+  width: 22rem;
+  margin: 3vmin 3vmin;
+}
+
+.cards div {
+  padding: 0;
+  margin: 0;
+}
+
+.cards .title {
+  background: rgba(208, 241, 241, 0.199);
+  padding: 1.4em 2.5em;
+  font-size: 2vmin;
+}
+
+.card .card-text {
+  padding: 2.5rem 3rem;
+}
+
+.card-body .pricing {
+  background: rgba(208, 241, 241, 0.199);
+  border-top-right-radius: 170px;
+  border-top-left-radius: 170px;
+}
+
+.card-body .pricing > h1 {
+  font-size: 10vmin;
+  padding: 1em 0.5em;
+}
 
 /* songs grid */
 .grid-area {
-    margin: 10rem 0;
+  margin: 10rem 0;
 }
 
 .grid-area .button-group button {
-    background       : transparent;
-    border           : none;
-    font-weight      : 500;
-    font-size        : 16px;
-    padding: 10px;
-    margin-bottom: 3rem;
-    text-transform   : uppercase;
+  background: transparent;
+  border: 0.15rem solid transparent;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
 }
 
 .grid-area .button-group button:hover {
-    color: var(--primary-color);
-    border-bottom: solid;
-    border-color: var(--gradient-color);
-    border-width: 0.15rem;
+  border: 0.15rem solid var(--gradient-color);
+  color: var(--primary-color);
 }
 
 .grid-area .button-group button:active {
-    border-bottom: solid;
-    border-color: var(--gradient-color);
-    border-width: 0.15rem;
+  border: 0.15rem solid var(--gradient-color);
 }
 
-.grid-area .button-group button+button {
-    margin-left: 3rem;
+.grid-area .button-group button + button {
+  margin-left: 3rem;
 }
 
-.grid-area .grid .our-song>.title h4 {
-    font-weight: 600;
-    font-size  : 20px;
-    line-height: 12px;
+.grid-area .grid .our-song > .title h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 12px;
 }
-
 
 /* Footer Area */
 
 footer.footer-area {
-    padding   : 5rem 0;
-    background: url(../assets/footer-bg.png) no-repeat;
+  padding: 5rem 0;
+  background: url(../assets/footer-bg.png) no-repeat;
 }
 
 footer.footer-area .social h5 {
-    font: 500 23px/ 30px;
+  font: 500 23px/ 30px;
 }
 
-footer.footer-area .social a>i {
-    font-size: 22px;
-    padding  : 2rem;
-    color    : var(--border-color);
+footer.footer-area .social a > i {
+  font-size: 22px;
+  padding: 2rem;
+  color: var(--border-color);
 }
 
-footer.footer-area .social a:hover>i {
-    color: var(--primary-color);
+footer.footer-area .social a:hover > i {
+  color: var(--primary-color);
 }
 
 /* End Footer */
